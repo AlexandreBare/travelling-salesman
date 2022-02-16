@@ -1,0 +1,68 @@
+NOTE: Attention, ne changez pas le format de ce fichier. Gardez toutes les
+lignes inchangées et ajoutez seulement vos réponses aux endroits prévus à cet
+effet.
+
+Composition du groupe
+---------------------
+-
+Premier membre du groupe:
+Nom: Baré
+Prénom: Alexandre
+Matricule: 20172388
+Second membre du groupe (optionel):
+Nom: /
+Prénom: /
+Matricule: /
+-
+Analyse de complexité
+---------------------
+
+1. Donnez les complexités théoriques des fonctions suivantes en notation
+grand-O en fonction du nombre de villes n dans le tour. Justifiez très
+brièvement vos réponses.
+-
+addTownAtTourEnd: O(1) -> pas de boucle et chaque instruction est O(1)
+addTownAfterTourPosition: O(1) -> pas de boucle et chaque instruction est O(1)
+getTourStartPosition: O(1) -> pas de boucle et chaque instruction est O(1)
+getNextTourPosition: O(1) -> pas de boucle et chaque instruction est O(1)
+getTownAtPosition: O(1) -> pas de boucle et chaque instruction est O(1)
+getTourSize: O(1) -> pas de boucle et chaque instruction est O(1)
+getTourLength: O(n) -> boucle à travers toutes les villes du tour et chaque instruction est O(1)
+- 
+2. Donnez les complexités théoriques des deux heuristiques en notation
+grand-O. Justifiez brièvement vos réponses.
+-
+heuristic1: O(n^2) -> 2 boucles imbriquées qui parcourent toutes les villes contenues dans leur tour respectif et chaque instruction est O(1)
+heuristic2: O(n^2) -> 2 boucles imbriquées qui parcourent toutes les villes contenues dans leur tour respectif et chaque instruction est O(1)
+-
+5. Calculez les temps de calcul des deux heuristiques pour différents
+nombres de villes (des fichiers vous sont fournis) et vérifiez que ces
+temps de calcul correspondent bien aux complexités théoriques:
+-
+n        heuristic1(s)    heuristic2(s)
+----------------------------------------
+2000	 0.237913	  0.662232
+4000	 0.935275  	  2.848083
+8000	 3.711825	  11.055748
+16000    14.790524	  42.113410
+
+Commentaires:
+-
+4. Donnez les longueurs de parcours trouvés par les deux heuristiques sur les villes belges:
+-  
+heuristic1: 12562.850867
+heuristic2: 8496.225061
+-
+Autres
+------
+6. Si vous avez travaillé en groupe, comment vous êtes-vous réparti le travail ?
+- 
+	/
+- 
+7. Pouvez-vous estimer en heures (et par personne) le temps consacré à ce projet ?
+- 
+20 heures
+-
+8. Commentaires ou suggestions ? (optionel)
+- 
+Des conseils et astuces pour débugger efficacement me seraient vraiment utiles.
